@@ -11,7 +11,7 @@ developed to support syntactic parsing and NLP research for a low-resource langu
 | Language | Central Kurdish (Sorani), Arabic script |
 | Sentences | 3,000 |
 | Words | 18,230 |
-| POS tagset | 74 fine-grained tags (custom, designed for Central Kurdish morphology) |
+| POS tagset | 75 fine-grained tags (custom, designed for Central Kurdish morphology) |
 | Grammar | 249-rule Context-Free Grammar (CFG) |
 | Annotation | Two-pass manual POS annotation; parser-assisted, expert-validated constituency bracketing |
 | Genres | Academic, news (politics, sport, economy), literature, culture, health, history |
