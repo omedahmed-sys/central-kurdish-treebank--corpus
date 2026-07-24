@@ -1,0 +1,25 @@
+##------------------------------------------------------------------##
+## EVALB parameter file for the Central Kurdish Treebank (CKTB)     ##
+## Used for all constituency parsing evaluation in the paper.       ##
+##------------------------------------------------------------------##
+
+# Maximum number of errors before EVALB aborts
+MAX_ERROR   1000
+
+# Include all sentence lengths (default 40 would skip long sentences)
+CUT_LEN     100
+
+# Labelled bracketing (span + label must both match)
+LABELED     1
+
+# Labels deleted from bracket scoring (Penn Treebank convention:
+# punctuation and empty categories are excluded)
+DELETE_LABEL  TOP
+DELETE_LABEL  SENT
+DELETE_LABEL  PUNC
+DELETE_LABEL  COMA
+DELETE_LABEL  COMMA
+DELETE_LABEL  SYM
+DELETE_LABEL  EMP
+DELETE_LABEL  CLBR
+DELETE_LABEL  OPBR
